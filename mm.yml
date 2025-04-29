@@ -1,1 +1,10 @@
 msg: hi, i am srinivas
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 9999
